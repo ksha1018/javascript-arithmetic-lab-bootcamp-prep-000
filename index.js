@@ -34,6 +34,13 @@ function divideBy3(){
   number /=3
 }
 
+function inc(n){
+  return n+1;
+}
+function dec(n){
+  return n-1;
+}
+
 divideBy3()
 console.log(number)
 add5()
@@ -43,3 +50,6 @@ add5()
 console.log(number)
 divideBy3()
 console.log(number)
+console.log(inc(number))
+console.log(dec(number))
+
