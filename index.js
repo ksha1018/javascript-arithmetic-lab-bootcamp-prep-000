@@ -53,3 +53,14 @@ console.log(number)
 console.log(inc(number))
 console.log(dec(number))
 
+
+
+
+
+
+
+
+
+
+
+
