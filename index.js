@@ -1,3 +1,31 @@
+var x, y;
+
+function add(x,y){
+  return x+y;
+}
+function subtract(x,y){
+  return x-y;
+}
+function multiply(x,y){
+  return x*y;
+}
+function divide(x,y){
+  return x/y;
+}
+
+x=1;
+y=80;
+console.log(add(x,y))
+x=60;
+y=40;
+console.log(subtract(x,y))
+x=2;
+y=3.4;
+console.log(multiply(x,y))
+x=5.0;
+y=2.5;
+console.log(divide(x,y))
+
 var number = 10
 function add5() {
   number += 5
