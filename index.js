@@ -54,6 +54,20 @@ console.log(inc(number))
 console.log(dec(number))
 
 
+function makeInt(n){
+   return parseInt(n);
+}
+function preserveDecimal(n){
+   return parseFloat(n);
+}
+
+var n='2.2222';
+console.log(makeInt(n))
+n='nonsense!';
+console.log(makeInt(n))
+
+n='80.123999';
+console.log(preserveDecimal(n))
 
 
 
