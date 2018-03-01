@@ -1,30 +1,30 @@
-var x, y;
+var a, b;
 
-function add(x,y){
-  return x+y;
+function add(a,b){
+  return a+b;
 }
-function subtract(x,y){
-  return x-y;
+function subtract(a,b){
+  return a-b;
 }
 function multiply(x,y){
-  return x*y;
+  return a*b;
 }
 function divide(x,y){
-  return x/y;
+  return a/b;
 }
 
-x=1;
-y=80;
-console.log(add(x,y))
-x=60;
-y=40;
-console.log(subtract(x,y))
-x=2;
-y=3.4;
-console.log(multiply(x,y))
-x=5.0;
-y=2.5;
-console.log(divide(x,y))
+a=1;
+b=80;
+console.log(add(a,b))
+a=60;
+b=40;
+console.log(subtract(a,b))
+a=2;
+b=3.4;
+console.log(multiply(a,b))
+a=5.0;
+b=2.5;
+console.log(divide(a,b))
 
 var number = 10
 function add5() {
